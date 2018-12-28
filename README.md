@@ -29,11 +29,11 @@ For example, a 16 x 16 x 16 color cube becomes a horizontal strip of 16 squares,
 
 - The identity 16x16x16 horizontal-strip-layout color lookup table image used by `SCNCamera.colorGrading` can be generated using:
         
-        CLUTImageDescriptor(dimension: 16, layout: CLUTImageLayout(horizontalTileCount: 16, verticalTileCount: 1))
+      CLUTImageDescriptor(dimension: 16, layout: CLUTImageLayout(horizontalTileCount: 16, verticalTileCount: 1))
 
 - The identity 64x64x64 square-layout color lookup table image used by `GPUImage` can be generated using:
 
-        CLUTImageDescriptor(dimension: 64, layout: CLUTImageLayout(horizontalTileCount: 8, verticalTileCount: 8))
+      CLUTImageDescriptor(dimension: 64, layout: CLUTImageLayout(horizontalTileCount: 8, verticalTileCount: 8))
         
 
 
