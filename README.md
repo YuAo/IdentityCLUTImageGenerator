@@ -7,7 +7,7 @@ The 2D representation of a 3D color cube is an arrangement of slices.
 
 For example, a 16 x 16 x 16 color cube becomes a horizontal strip of 16 squares, each 16 x 16 pixels (that is, a 256 x 16 image). Each square contains a gradation of red and green components, and together the 16 squares form a gradation for the blue component.
 
-`IdentityCLUTImageGenerator.playground` generate 2D identity color lookup table images that can be use with image processing frameworks like [MetalPetal](https://github.com/MetalPetal/MetalPetal/), [GPUImage](https://github.com/BradLarson/GPUImage), [SceneKit](https://developer.apple.com/documentation/scenekit/scncamera/1644114-colorgrading), etc.
+`IdentityCLUTImageGenerator.playground` generates 2D identity color lookup table images that can be use with image processing frameworks like [MetalPetal](https://github.com/MetalPetal/MetalPetal/), [GPUImage](https://github.com/BradLarson/GPUImage), [SceneKit](https://developer.apple.com/documentation/scenekit/scncamera/1644114-colorgrading), etc.
 
 ## Types
 
